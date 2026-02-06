@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #fff;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 60px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #777;
+  font-weight: 500;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.sign-in {
+  background-color: #3b82f6;
+  color: #fff;
+  border-color: blue;
+}
+
+.sign-up {
+  background-color: white;
+  color: #3b82f6;
+  border-color: blue;
+}
+
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 60px;
+}
+
+.about-image img {background-image: url(about\ us.svg);
+  width: 450px;
+}
+
+.about-content {
+  max-width: 500px;
+}
+
+.about-content h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.about-content p {
+  color: #555;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.about-content ul {
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.about-content ul li {
+  margin-bottom: 10px;
+}
+
+.about-content ul li::before {
+  content: "✔";
+  color: #3b82f6;
+  margin-right: 8px;
+}
+
+.stats {
+  display: flex;
+  gap: 40px;
+}
+
+.stats h3 {
+  font-size: 28px;
+}
+
+.stats span {
+  color: #777;
+  font-size: 14px;
+}
